@@ -1,0 +1,8 @@
+LIBRARY
+EXPORTS
+
+RtspSaverInit
+RtspSaverSetFileName
+RtspSaverStartSave
+RtspSaverStopSave
+RtspSaverGetLastError

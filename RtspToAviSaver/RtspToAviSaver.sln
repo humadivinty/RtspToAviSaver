@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RtspToAviSaver", "RtspToAviSaver\RtspToAviSaver.vcxproj", "{32BE15A6-60B4-4FED-BD5A-E82D3F26E370}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SaverTest", "SaverTest\SaverTest.vcxproj", "{8358BE27-7DFE-4C50-882D-DEF591B351D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32BE15A6-60B4-4FED-BD5A-E82D3F26E370} = {32BE15A6-60B4-4FED-BD5A-E82D3F26E370}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BE15A6-60B4-4FED-BD5A-E82D3F26E370}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32BE15A6-60B4-4FED-BD5A-E82D3F26E370}.Debug|Win32.Build.0 = Debug|Win32
+		{32BE15A6-60B4-4FED-BD5A-E82D3F26E370}.Release|Win32.ActiveCfg = Release|Win32
+		{32BE15A6-60B4-4FED-BD5A-E82D3F26E370}.Release|Win32.Build.0 = Release|Win32
+		{8358BE27-7DFE-4C50-882D-DEF591B351D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8358BE27-7DFE-4C50-882D-DEF591B351D8}.Debug|Win32.Build.0 = Debug|Win32
+		{8358BE27-7DFE-4C50-882D-DEF591B351D8}.Release|Win32.ActiveCfg = Release|Win32
+		{8358BE27-7DFE-4C50-882D-DEF591B351D8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
